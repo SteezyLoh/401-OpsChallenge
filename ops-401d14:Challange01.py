@@ -1,3 +1,5 @@
+#!/usr/bin/env python3 
+
 import subprocess
 import time
 from datetime import datetime   
@@ -8,19 +10,25 @@ def ping_host(ip):
         return True
     except subprocess.CalledProcessError:
         return False
-    # Send a single ICMP (ping) packet and return the code
+    
 def main():
-    ip_address = '192.168.0.165' 
+    ip_address = input("Enter the IP address: ")
 
     while True:
- # Determins the date and time      
-     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]
-  # lets us know if its active and ping the IP if it is
-     status = "Network Active" if ping_host(ip_address) else "Network Inactive"
-# Prints out the time and status and IP         
-     print(f"{timestamp} {status} to {ip_address}")
-# pause for 2 seconds
-    time.sleep(2)
+        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]
+        status = "Network Active" if ping_host(ip_address) else "Network Inactive"
+        print(f"{timestamp} {status} to {ip_address}")
+        time.sleep(2)
 
-# Resources: https://stackoverflow.com/questions/35750041/check-if-ping-was-successful-using-subprocess-in-python https://chat.openai.com/share/55243fc9-4298-42f5-a2c6-7eae41c739ae
+if __name__ == "__main__":
+    main()
 
+'''
+Resources:
+    - https://docs.python.org/3/library/subprocess.html
+    - https://www.datacamp.com/tutorial/python-subprocess
+    - https://github.com/raqueltianna/ops-401/blob/main/uptimesensorpt1.py
+    - https://github.com/Hector2024/ops-401-code-challenges/blob/main/uptime_sensor.py
+    - https://chat.openai.com/share/55243fc9-4298-42f5-a2c6-7eae41c739ae
+    - https://stackoverflow.com/questions/35750041/check-if-ping-was-successful-using-subprocess-in-python
+'''
