@@ -1,6 +1,8 @@
 # RESOURCE: https://github.com/SteezyLoh/401-OpsChallenge/blob/main/Ops-401Challenge-class06.py 
 
 
+#!/usr/bin/env python3
+
 from cryptography.fernet import Fernet
 import os
 
