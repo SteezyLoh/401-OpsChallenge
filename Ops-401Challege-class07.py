@@ -1,4 +1,4 @@
-# RESOURCE: https://github.com/SteezyLoh/401-OpsChallenge/blob/main/Ops-401Challenge-class06.py 
+# RESOURCE: https://github.com/SteezyLoh/401-OpsChallenge/blob/main/Ops-401Challenge-class06.py https://chat.openai.com/share/8ff9ce37-0339-464d-b8b1-78e83a70f4ce 
 
 
 #!/usr/bin/env python3
@@ -99,4 +99,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-#RESOURCE: https://github.com/SteezyLoh/401-OpsChallenge/blob/main/Ops-401Challenge-class06.py
+#RESOURCE: https://github.com/SteezyLoh/401-OpsChallenge/blob/main/Ops-401Challenge-class06.py https://chat.openai.com/share/8ff9ce37-0339-464d-b8b1-78e83a70f4ce
