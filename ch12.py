@@ -91,4 +91,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-    # REFERENCES: https://chat.openai.com/share/c0cae9b2-d0bb-4933-a360-3ea196887bcb https://web.archive.org/web/20180826164313/https://infinityquest.com/python-tutorials/generating-a-range-of-ip-addresses-from-a-cidr-address-in-python/ https://github.com/codefellows/seattle-cybersecurity-401d10/blob/main/class-12/challenges/DEMO.md
+    # REFERENCES: https://chat.openai.com/share/c0cae9b2-d0bb-4933-a360-3ea196887bcb https://web.archive.org/web/20180826164313/https://infinityquest.com/python-tutorials/generating-a-range-of-ip-addresses-from-a-cidr-address-in-python/ https://github.com/codefellows/seattle-cybersecurity-401d10/blob/main/class-12/challenges/DEMO.md https://github.com/Hector2024/ops-401-code-challenges/blob/main/network_security_tool2.py/  
