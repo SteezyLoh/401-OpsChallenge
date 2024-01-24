@@ -2,7 +2,7 @@
 
 # Script Name:                         Python TCP port scanner p2
 # Author name:                         Scotty Jokon
-# Date of latest revision:             23JAN2024 
+# Date of latest revision:             1/23/24 
 # Purpose:                             Challenge 12
 
 
